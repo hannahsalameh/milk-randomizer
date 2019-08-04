@@ -9,12 +9,12 @@ the_jinja_env = jinja2.Environment(
     autoescape=True)
 
 class HomePage(webapp2.RequestHandler):
-    def post(self):
+    def get(self):
         home_template = the_jinja_env.get_template('templates/home.html')
         self.response.write(home_template.render())
 
 class AboutMePage(webapp2.RequestHandler):
-    def post(self):
+    def get(self):
         aboutme_template = the_jinja_env.get_template('templates/aboutme.html')
         self.response.write(aboutme_template.render())
 
