@@ -58,6 +58,23 @@ nav{
   margin: 0;
 }
 
+/* home page css */
+
+.milk{
+  height: 200px;
+  box-shadow: 0 4px 4px 0 rgba(0,0,0,0.2);
+  margin-bottom:10px;
+}
+.colors{
+  background-color: transparent;
+  color:white;
+  border-style:none;
+  font-size: 16px;
+}
+
+.colors:hover {
+  text-decoration: underline;
+}
 /*about me page css*/
 
 .myPicture{
