@@ -3,7 +3,7 @@
 
 html{
   color: white;
-  font-family: 'Roboto', sans-serif;
+  font-family:"Comic Sans MS", cursive, sans-serif;
   text-align: center;
   background-color: #ffb5b5;
 }
@@ -40,7 +40,7 @@ nav{
   background-color: #407088;
   border-style: none;
   color: white;
-  font-family: 'Lato', sans-serif;
+  font-family: "Comic Sans MS", cursive, sans-serif;
   font-size: 30px;
   white-space: nowrap;
   margin-top: 0;
@@ -70,10 +70,15 @@ nav{
   color:white;
   border-style:none;
   font-size: 16px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
 .colors:hover {
   text-decoration: underline;
+}
+
+#nyan{
+  height:50px;
 }
 /*about me page css*/
 
